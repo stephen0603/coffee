@@ -1,4 +1,4 @@
-# coffee
+# new-project
 
 ## Project setup
 ```

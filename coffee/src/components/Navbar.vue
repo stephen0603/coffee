@@ -12,7 +12,12 @@
           <router-link to="/productview" class="nav-link px-3">產品訂購</router-link>
           <router-link to="/question" class="nav-link px-3">常見問題</router-link>
           <router-link to="/login" class="nav-link px-3"><i class="bi bi-person-fill"></i></router-link>
-          <router-link to="/user/cart" class="nav-link px-3"><i class="bi bi-handbag"></i>
+          <router-link to="/user/cart" class="nav-link px-3">
+            <i class="bi bi-handbag"></i>
+            <span class="badge badge-pill text-danger"
+          style="transform: translateX(-9px) translateY(-9px)">
+      {{ cartTotal }}
+    </span>
           </router-link>  
       </div>
   </div>
@@ -21,3 +26,23 @@
 </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      cartTotal: 0,
+    };
+  },
+  created() {
+    this.getCart();
+  },
+  methods: {
+    getCart() {
+      const url =`${process.env.VUE_APP_API}api/${process.env.VUE_APP_PATH}/cart`;
+      this.$http.get(url).then((res) => {
+        this.cartTotal = res.data.data.carts.length;
+      });
+    },
+  },
+};
+</script>

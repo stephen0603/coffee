@@ -1,14 +1,14 @@
 <template>
    <Loading :active="isLoading"></Loading>
   
-  <div class="aboutWrap">
+  <div class="aboutWrap"> 
     <Navbar></Navbar>
     <div class="text-center">
     <span class="fs-2 p-2 text-white" style="background-color: rgba(52,58,64,.8);">關於我們</span>
   </div>
   </div>
 
-  <section class="container py-5 bg-white">
+  <section class="container bg-white">
         <div class="row">
          
          <div class="col-lg-6 mb-3">
@@ -30,7 +30,7 @@
         </div>
   </section>
 
-    <section class="container py-5 bg-white">
+    <section class="container bg-white">
         <div class="row flex-row-reverse">
             <div class="col-lg-6">
                 <div class="my-5 text-center" style="animation: displayleft 0.8s ease-out 1s both;">
@@ -74,7 +74,8 @@ export default {
   background-image: url(../assets/Aboutimp.jpg);
   background-position: center center;
   background-size: cover;
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px ;
   width: 100%;
   height:auto;
 }

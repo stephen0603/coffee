@@ -5,15 +5,15 @@
     <div class="my-5 row justify-content-center">
       <div class="col-lg-8 step-navigation">
   <div class="email text-primary">
-    <i class="bi bi-envelope-fill fs-3" aria-hidden="true"></i>  
+    <i class="bi bi-envelope-fill" aria-hidden="true"></i>  
     <h5>確認商品</h5>
   </div>
   <div class="name text-success">
-    <i class="bi bi-person-fill fs-3" aria-hidden="true"></i>
+    <i class="bi bi-person-fill" aria-hidden="true"></i>
     <h5>填寫資料</h5>
   </div>
   <div class="password  text-secondary">
-    <i class="bi bi-unlock-fill fs-3" aria-hidden="true"></i>
+    <i class="bi bi-unlock-fill" aria-hidden="true"></i>
     <h5>付款</h5>
   </div>
 </div>
@@ -124,5 +124,16 @@ export default {
 .step-navigation>div>i {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: larger;
+}
+@media (max-width:768px) {
+  .step-navigation>div {
+  border-radius: 90%;
+  width: 100px;
+  height: 100px;
+}
+  .step-navigation>div>h5 {
+    font-size: 16px;
+  }
 }
 </style>

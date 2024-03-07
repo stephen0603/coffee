@@ -1,7 +1,7 @@
 <template>
     <Loading :active="isLoading"></Loading>
-  <Navbar></Navbar>
   <div class="quest">
+     <Navbar></Navbar>
     <div class="text-center">
     <span class="fs-2 p-2 text-white" style="background-color: rgba(52,58,64,.8);">常見問題</span>
   </div>

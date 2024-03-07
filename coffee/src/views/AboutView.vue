@@ -33,7 +33,7 @@
     <section class="container bg-white">
         <div class="row flex-row-reverse">
             <div class="col-lg-6">
-                <div class="my-5 text-center" style="animation: displayleft 0.8s ease-out 1s both;">
+                <div class="my-5 text-center">
             <span class="fw-bold py-2 border-bottom border-dark border-2 fs-4 ">聯絡資訊</span>
             <p class="lh-lg py-4"> <i class="bi bi-telephone-fill text-danger px-1"></i>電話：12345678910<br>
                                     <i class="bi bi-envelope text-danger px-1"></i>聯絡信箱 ：adagio@mail.com<br>

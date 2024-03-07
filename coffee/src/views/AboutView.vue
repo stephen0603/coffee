@@ -12,7 +12,7 @@
         <div class="row">
          
          <div class="col-lg-6 mb-3">
-            <div class="text-center py-4" style="animation: displayright 0.8s ease-out 1s both;">
+            <div class="text-center py-4">
             <span class="fw-bold py-2 border-bottom border-dark border-2 fs-4"># 義大利口頭禪 ”Piano, Piano”</span>
             <p class="lh-lg py-4">”Piano, Piano”是義大利人的口頭禪之一，<br>
                                   中文意思是「不急、慢慢來」，<br>
@@ -79,23 +79,6 @@ export default {
   width: 100%;
   height:auto;
 }
-@keyframes displayleft {
-  from {
-    transform: translateX(150%);
-  }
-  to {
-    transform: translateX(0%);
-  }
-}
-@keyframes displayright {
-  from {
-    transform: translateX(-150%);
-  }
-  to {
-    transform: translateX(0%);
-  }
-}
-
 </style>
 
 

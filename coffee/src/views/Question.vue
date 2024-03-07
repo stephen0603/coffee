@@ -94,7 +94,8 @@ export default {
     background-image: url(../assets/quest.jpg);
     background-position: center center;
     background-size: cover;
-    padding: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     width: 100%;
     height:auto;
   }

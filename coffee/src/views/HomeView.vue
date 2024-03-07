@@ -40,7 +40,7 @@
      
         <section class="bg-white  text-center" > 
           <span class="fw-bold py-2 border-bottom border-dark border-2 fs-4">商品介紹</span>
-      <swiper class="container mt-5" :modules="modules" :slidesPerView="2" 
+      <swiper class="container mt-5" :modules="modules" :slidesPerView="1" 
     :space-between="50"
     navigation
     :scrollbar="{ draggable: true }"
